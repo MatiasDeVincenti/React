@@ -1,17 +1,21 @@
 import { useState } from "react";
-import MiPrimerComponente from "./components/miPrimerComponente/MiPrimerComponente";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
 
-function App() {
-  const [count, setCount] = useState(0);
-
+export default function MyApp() {
   return (
-    <>
-      <MiPrimerComponente />
-    </>
+    <div>
+      <h1>Contadores que se actualizan separadamente</h1>
+      <MyButton />
+      <MyButton />
+    </div>
   );
 }
 
-export default App;
+function MyButton() {
+  const [count, setCount] = useState(0);
+
+  function handleClick() {
+    setCount(count + 1);
+  }
+
+  return <button onClick={handleClick}>Hiciste clic {count} veces</button>;
+}
