@@ -1,21 +1,10 @@
-import { useState } from "react";
+// src/App.js
 
-export default function MyApp() {
-  return (
-    <div>
-      <h1>Contadores que se actualizan separadamente</h1>
-      <MyButton />
-      <MyButton />
-    </div>
-  );
+import React from "react";
+import CurrencyConverter from "./components/CurrencyConverter";
+
+function App() {
+  return <CurrencyConverter />;
 }
 
-function MyButton() {
-  const [count, setCount] = useState(0);
-
-  function handleClick() {
-    setCount(count + 1);
-  }
-
-  return <button onClick={handleClick}>Hiciste clic {count} veces</button>;
-}
+export default App;

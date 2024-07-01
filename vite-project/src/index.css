@@ -66,3 +66,27 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.box {
+  display: flex;
+  justify-content: center; /* Centra horizontalmente */
+  align-items: center; /* Centra verticalmente */
+  height: 100vh; /* Aprovecha toda la altura del viewport */
+  text-align: center; /* Alinea el texto al centro */
+}
+
+.box {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start; /* Alinea el contenido en la parte superior */
+  height: 100vh; /* Aprovecha toda la altura del viewport */
+  text-align: center; /* Alinea el texto al centro */
+  padding: 20px; /* Añade espacio interno */
+}
+
+.exchange-rates {
+  max-width: 600px; /* Ancho máximo para el contenido */
+  width: 100%; /* Ocupa todo el ancho disponible */
+  margin: 0 auto; /* Centra horizontalmente */
+  text-align: left; /* Alinea el texto a la izquierda dentro de este contenedor */
+}
