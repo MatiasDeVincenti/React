@@ -1,0 +1,35 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background: linear-gradient(135deg, orange 60%, cyan);
+}
+
+header {
+  background: #915b14;
+  color: rgb(175, 184, 48);
+  padding: 1rem;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 10px;
+}
+
+nav ul li a {
+  color: #23a061;
+  text-decoration: none;
+}
+
+section {
+  padding: 2rem;
+  margin: 0 auto;
+  max-width: 800px;
+}
