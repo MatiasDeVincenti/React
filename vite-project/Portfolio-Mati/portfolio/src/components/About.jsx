@@ -14,7 +14,7 @@ function About() {
       >
         <div>
           <p>
-            Hola, Soy Mati De Vincenti Programador Front End, tengo 17 años y
+            Hola, Soy Matias De Vincenti, Programador Front End, tengo 17 años y
             soy un apasionado por la programacion. Estudiante de la Escuela
             Tecnica de la UBA.{" "}
           </p>
